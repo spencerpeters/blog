@@ -1,36 +1,90 @@
+@import "base.css";
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Bangers', cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+
 body {
-    color: black;
+    color: #000;
+    font-family: sans-serif;
     font-size: 16px;
-    margin: 0px auto 0px auto;
-    width: 600px;
+    margin: 0 auto 100px auto;
+    max-width: 100%;
+    padding: 30px 50px 50px 30px;
+}
+
+a{
+    color: rgb(109, 145, 225);
+    text-decoration: none;
 }
 
 header {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid rgb(109, 145, 225);
     margin-bottom: 30px;
-    padding: 12px 0px 12px 0px;
+    padding: 65px 0px 12px 0px;
+    z-index: 999;
+    width:100%;
 }
 
-nav {
-    text-align: right;
+div.logo {
+    width:100%;
+    text-align: center;
 }
 
-nav a {
-    color: black;
-    font-size: 18px;
+div.logo a {
+    color: #666;
+    font-family: 'Coustard', sans-serif;
+    font-size: 38px;
     font-weight: bold;
-    margin-left: 12px;
+    text-decoration: none;
+    text-shadow:;
+}
+
+header nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: #00B;
+    font-family: 'Antic Slab', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
     text-decoration: none;
     text-transform: uppercase;
 }
 
+header nav a:hover {
+    background:#113;
+    color:white;
+    text-decoration: none;
+}
+
+
 footer {
-    border-top: solid 2px black;
-    color: #555;
+    background: rgb(109, 145, 225);
+    color: #444;
     font-size: 12px;
-    margin-top: 30px;
-    padding: 12px 0px 12px 0px;
-    text-align: right;
+    padding: 32px 0px 32px 0px;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
 }
 
 h1 {
@@ -41,18 +95,8 @@ h2 {
     font-size: 20px;
 }
 
-article .header {
+section.header {
     color: #555;
     font-size: 14px;
     font-style: italic;
 }
-
-.logo a {
-    color: black;
-    float: left;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-
