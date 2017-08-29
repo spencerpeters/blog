@@ -6,6 +6,7 @@ import           Data.List
 import           System.FilePath
 import           Hakyll.Core.Configuration
 import           System.Process
+import           Text.Pandoc.Options
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -26,7 +27,7 @@ main = hakyllWith config $ do
 
     match "posts/*" $ do
         route $ setExtension "html"
-        compile $ pandocCompiler
+        compile $ pandocCompilerWith myReaderOptions myWriterOptions
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
@@ -92,3 +93,14 @@ config = Configuration
         | otherwise                    = False
       where
         fileName = takeFileName path
+
+myReaderOptions :: ReaderOptions
+myReaderOptions = defaultHakyllReaderOptions
+
+myWriterOptions :: WriterOptions
+myWriterOptions = defaultHakyllWriterOptions {
+      writerReferenceLinks = True
+    , writerHtml5 = True
+    , writerHighlight = True
+    , writerHTMLMathMethod = MathJax "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"
+    }
