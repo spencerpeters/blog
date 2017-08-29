@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd13f1c-6409-4fa6-a09b-2824bd614d9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-history.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_cache/0a702b25d51d89d8c4c795fa26b7a054" afterPath="$PROJECT_DIR$/_cache/0a702b25d51d89d8c4c795fa26b7a054" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_cache/0a702b25d51d89d8c4c795fa26b7a054" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_cache/13318c2b4a591b8f412f367f81df20d6" afterPath="$PROJECT_DIR$/_cache/13318c2b4a591b8f412f367f81df20d6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_cache/180a97a4fb2d3e57404434c8b5c4c51b" afterPath="$PROJECT_DIR$/_cache/180a97a4fb2d3e57404434c8b5c4c51b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_cache/285e0370155ab6c96d12dbe3a62fd163" afterPath="$PROJECT_DIR$/_cache/285e0370155ab6c96d12dbe3a62fd163" />
@@ -19,21 +17,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_cache/b55ed8f8472b848711dbd0caa2920e4f" afterPath="$PROJECT_DIR$/_cache/b55ed8f8472b848711dbd0caa2920e4f" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_cache/da45bf719b9400a5132a655eb2b3901a" afterPath="$PROJECT_DIR$/_cache/da45bf719b9400a5132a655eb2b3901a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_cache/fe16e382c4e0dd168b05aeb61cea8d51" afterPath="$PROJECT_DIR$/_cache/fe16e382c4e0dd168b05aeb61cea8d51" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.cabal" afterPath="$PROJECT_DIR$/blog.cabal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/about.html" afterPath="$PROJECT_DIR$/docs/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/archive.html" afterPath="$PROJECT_DIR$/docs/archive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/contact.html" afterPath="$PROJECT_DIR$/docs/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/css/default.css" afterPath="$PROJECT_DIR$/docs/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/posts/2015-08-12-spqr.html" afterPath="$PROJECT_DIR$/docs/posts/2015-08-12-spqr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/posts/2015-10-07-rosa-rosa-rosam.html" afterPath="$PROJECT_DIR$/docs/posts/2015-10-07-rosa-rosa-rosam.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/posts/2015-11-28-carpe-diem.html" afterPath="$PROJECT_DIR$/docs/posts/2015-11-28-carpe-diem.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/posts/2015-12-07-tu-quoque.html" afterPath="$PROJECT_DIR$/docs/posts/2015-12-07-tu-quoque.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts/2015-08-12-spqr.markdown" afterPath="$PROJECT_DIR$/posts/2015-08-12-spqr.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site.hs" afterPath="$PROJECT_DIR$/site.hs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default.html" afterPath="$PROJECT_DIR$/templates/default.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.stack-work/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -116,7 +99,7 @@
               </first_editor>
               <second_editor>
                 <js_state>
-                  <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:3207}" />
+                  <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:3207.000029}" />
                 </js_state>
               </second_editor>
             </state>
@@ -177,6 +160,7 @@
         <option value="$PROJECT_DIR$/posts/2015-08-12-spqr.markdown" />
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -227,6 +211,11 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name=".stack-work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -372,6 +361,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -381,7 +371,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -421,7 +411,7 @@
           </first_editor>
           <second_editor>
             <js_state>
-              <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:3207}" />
+              <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:3207.000029}" />
             </js_state>
           </second_editor>
         </state>
@@ -576,7 +566,7 @@
           </first_editor>
           <second_editor>
             <js_state>
-              <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:3207}" />
+              <onLoadScroll type="JSON" value="{&quot;x&quot;:0,&quot;y&quot;:3207.000029}" />
             </js_state>
           </second_editor>
         </state>
