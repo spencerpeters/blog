@@ -22,3 +22,6 @@ cabal.project.local
 _cache/
 _cache/*
 docs/
+.idea/
+.idea/*
+
