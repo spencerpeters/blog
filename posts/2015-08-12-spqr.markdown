@@ -2,22 +2,6 @@
 title: S.P.Q.R.
 ---
 
-# Crazy header
-
-## Crazy subheader
-
-1. Bla
-   1.   What is this?
-
-        What is that?
-
-   2. What is that?
-2. What
-   1. What the hell
-   2. 
-3. Foo
-4. XD
-
 Mauris in lorem nisl. Maecenas tempus facilisis ante, eget viverra nisl
 tincidunt et. Donec turpis lectus, mattis ac malesuada a, accumsan eu libero.
 Morbi condimentum, tortor et tincidunt ullamcorper, sem quam pretium nulla, id
@@ -31,10 +15,6 @@ mollis, dui nibh aliquam neque, at ultricies leo ligula et arcu. Proin et mi
 eget tellus sodales lobortis. Sed tempor, urna vel pulvinar faucibus, lectus
 urna vehicula ante, at facilisis dolor odio at lorem. Morbi vehicula euismod
 urna, et imperdiet urna ornare vitae.
-
-> This is Sed tempor, urna vel pulvinar faucibus, lectus
-          urna vehicula ante, at facilisis dolor odio at lorem. Morbi vehicula euismod
-          urna, et imperdiet urna ornare vitae
 
 Sed tincidunt sollicitudin ultrices. In hac habitasse platea dictumst. Morbi
 ligula lectus, egestas at ultricies nec, fringilla et tellus. Duis urna lorem,
@@ -62,14 +42,6 @@ conubia nostra, per inceptos himenaeos. Maecenas venenatis aliquet orci, a
 ultricies sem facilisis eu. Donec dolor purus, porta condimentum convallis nec,
 dignissim nec libero.
 
-| what  |
-|---|
-|   iw |
-| this |
-
-
-Bla
-
 Etiam rutrum ultricies dui, et interdum metus elementum et. Nulla sapien nunc,
 interdum tristique porttitor in, laoreet vitae mi. Ut vehicula auctor mauris sit
 amet bibendum. Phasellus adipiscing mattis libero, eget adipiscing erat
@@ -77,7 +49,7 @@ dignissim at. Vivamus convallis malesuada metus nec cursus. Ut cursus, lorem
 eleifend sollicitudin condimentum, felis tortor sodales augue, ac tempus lacus
 ipsum vitae quam. Vestibulum vitae lacus non tortor vehicula iaculis faucibus
 quis massa.
-![haskell-logo](../images/haskell-logo.png)
+
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 mus. Duis malesuada neque nec ante porttitor accumsan. Suspendisse potenti.
 Aliquam in lacus magna, imperdiet laoreet lectus. Praesent id diam nec ante
@@ -85,23 +57,3 @@ commodo rhoncus nec vel augue. Pellentesque tortor massa, dignissim ut sagittis
 sed, hendrerit vitae nunc. Nam gravida, urna vitae hendrerit rutrum, felis augue
 vulputate tortor, ut varius velit libero nec lectus. In adipiscing massa in est
 scelerisque ullamcorper. Vivamus in nisi metus.
-
-[Hakyll](https://jaspervdj.be/contact.html)
-
-[Hakyll][hakyll]
-
-[hakyll]: https://jaspervdj.be/contact.html
-
-![imageTest][lambda]
-
-[lambda]: /images/haskell-logo.png
-
----
-
-    What?! This is a code block?  
-    for i in range
-
-
-$$x \in S$$
-
-$x \in S$
