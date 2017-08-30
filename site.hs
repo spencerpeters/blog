@@ -1,12 +1,14 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
+import           Data.Monoid (mappend, (<>))
 import           Hakyll
 import           Data.List
 import           System.FilePath
 import           Hakyll.Core.Configuration
 import           System.Process
 import           Text.Pandoc.Options
+import qualified Data.Map as M
+
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -105,3 +107,11 @@ myWriterOptions = defaultHakyllWriterOptions {
     , writerHighlight = True
     , writerHTMLMathMethod = MathJax "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"
     }
+
+-- mathCtx :: Context String
+-- mathCtx = field "mathjax" $ \item -> do
+--     metadata <- getMetadata $ itemIdentifier item
+--     return lookupString "mathjax"
+-- --     return $ if "mathjax" `M.member` metadata
+-- --              then "<script type=\"text/javascript\" src=\"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\"></script>"
+-- --              else ""
