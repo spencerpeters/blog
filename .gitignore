@@ -21,7 +21,6 @@ cabal.project.local
 .ghc.environment.*
 _cache/
 _cache/*
-docs/
 .idea/
 .idea/*
 
